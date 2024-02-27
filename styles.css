@@ -5,6 +5,42 @@ html{
     background: rgb(253, 254, 246);
 }
 
-.container {
-    text-align: center;
+.title {
+    text-align: left;
+    background-color: rgb(253, 254, 246);
   }
+
+.border 
+  hr.solid {
+    border-top: 3px solid #000000;
+  }
+
+.BG {
+    text-align: center;
+}
+
+.info{
+    text-align:center;
+}
+
+.education{
+    text-align:center;
+}
+
+.border 
+  hr.solid {
+    border-top: 3px solid #000000;
+  }
+
+
+.achievements{
+    text-align:center;
+  }
+
+
+.border 
+  hr.solid {
+    border-top: 3px solid #000000;
+  }
+
+  
