@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
-html{
+/* html{
     font-family: 'Gloock', serif;
     background: rgb(253, 254, 246);
 }
@@ -43,4 +43,61 @@ html{
     border-top: 3px solid #000000;
   }
 
-  
+.skills{
+    text-align:center;
+}
+
+.border 
+  hr.solid {
+    border-top: 3px solid #000000;
+  } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-gradient: radial-gradient(circle, rgb(197, 97, 169) 46%, rgba(87,26,70,1) 100%);
+    --border-gradient: linear-gradient(to right, rgb(193, 193, 237), rgb(234, 193, 255)) 1;
+    --color1: white;
+    --color2: rgb(67, 77, 131);
+    --color3: rgb(93, 102, 148);
+}
+
+html{
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background: var(--bg-gradient) fixed;
+    color: var(--color1); 
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.378);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    backdrop-filter: blur(5px);
+}
+
+
+.header2{
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.378);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* color: white; */
+    backdrop-filter: blur(5px);
+}
